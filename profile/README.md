@@ -3,7 +3,7 @@
 Welcome to our organization! We are an academic team composed of IADB, Columbia University and CGR research consultants supporting on _two main projects_
 
 - The development of a set of Machine Learning Complaints algorithms
-- An RCT to evaluate the quality of the "Monitores Ciudadanos" program
+- A RCT to evaluate the quality of the "Monitores Ciudadanos" program
 
 By clicking on a project name, you will access the user guide for the repositories related to each of them
 
