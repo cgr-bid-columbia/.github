@@ -1,6 +1,6 @@
 # CGR-BID-Columbia Academic Team
 
-Welcome to our organization! We are an academic team composed of IADB, Columbia University and CGR consultants supporting on _two main projects_
+Welcome to our organization! We are an academic team composed of IADB, Columbia University and CGR research consultants supporting on _two main projects_
 
 - The development of a set of Machine Learning Complaints algorithms
 - An RCT to evaluate the quality of the "Monitores Ciudadanos" program
