@@ -1,12 +1,21 @@
-# General Usage Guide for Project Scripts
+# CGR-BID-Columbia Academic Team
 
-**Author:** Marco Gutierrez
+Welcome to our organization! We are an academic team composed of IADB, Columbia University and CGR consultants supporting on _two main projects_
 
-As it can be noticed by the organization members, there are several repositories regarding two projects
+- The development of a set of Machine Learning Complaints algorithms
+- An RCT to evaluate the quality of the "Monitores Ciudadanos" program
 
-- Complaints Algorithm
-- Monitores Ciudadanos RCT
+By clicking on a project name, you will access the user guide for the repositories related to each of them
 
-Here, you will find a guide about which is the goal for each repository. Click on the respective project name to know more about the repos on each of them
+## General Setup Guide
 
-**Note:** While this repo may be public, the guides regarding each project repos can only be seen by organization members.
+### Scripts setup
+To set up the scripts locally, follow the next steps:
+
+- Create two folders in your prefered path: `complaints_repos` and `mcc_repos`
+- Within each folder, clone the respective repos. You can find a guide on cloning [here](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-a-repository-from-github-to-github-desktop)
+
+### Databases setup
+To set up your computer to access our data, follow this [guide](https://github.com/cgr-bid-columbia/odbc_setup_guide)
+
+**Note:** While this README may be public, the guides regarding each project repos (as well as those repos) can only be seen by organization members.
