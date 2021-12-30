@@ -25,4 +25,5 @@ To set up the scripts locally, follow the next steps:
 ### Databases setup
 To set up your computer to access our data, follow this [guide](https://github.com/cgr-bid-columbia/odbc_setup_guide)
 
+---
 **Note:** While this README may be public, the guides regarding each project repos (as well as those repos) can only be seen by organization members.
