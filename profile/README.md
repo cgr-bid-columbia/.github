@@ -5,8 +5,8 @@
 ---
 Welcome to our organization! We are an academic team composed of IADB, Columbia University and CGR Peruvian RAs supporting these PIs on _two main projects_:
 
-- The development of a set of Machine Learning Complaints algorithms
-- A RCT to evaluate the quality of the "Monitores Ciudadanos" program
+- [The development of a set of Machine Learning Complaints algorithms](https://github.com/cgr-bid-columbia/users-guide/blob/main/complaints_guide.md)
+- [A RCT to evaluate the quality of the "Monitores Ciudadanos" program](https://github.com/cgr-bid-columbia/users-guide/blob/main/mmcc_guide.md)
 
 By clicking on a project name, you will access the user guide for the repositories related to each of them
 
