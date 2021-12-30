@@ -10,11 +10,15 @@ Welcome to our organization! We are an academic team composed of IADB, Columbia 
 
 By clicking on a project name, you will access the user guide for the repositories related to each of them
 
+**Note:** While this README may be public, the guides regarding each project repos (as well as those repos) can only be seen by organization members.
+
+
 ---
-# Structure of the Academic Team
+# Structure of the Academic Team (Consultants only)
 
 Our organigram can be found [here](https://docs.google.com/presentation/d/14rwj_Vp3KWuxNM8lidnvk24lUC07rtO1FIMUqsqzXUo/edit?usp=sharing). However, this can only be seen by organization members.
 
+---
 # General Rules for Internal Tasks
 
 ## Softcoding
@@ -46,8 +50,3 @@ Our scripts must be documented. This means that they should be as self explanato
 - Adding short comments before a codeblock and _complicated_ lines of code
 - Avoiding long statements. As a rule of thumb, a codeline should be shorter than the screen width (unless you use an ultrawide screen)
 - Using variable, function, classes and object names that reflect what they represent
-
-
-
----
-**Note:** While this README may be public, the guides regarding each project repos (as well as those repos) can only be seen by organization members.
