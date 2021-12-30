@@ -10,18 +10,21 @@ Welcome to our organization! We are an academic team composed of IADB, Columbia 
 
 By clicking on a project name, you will access the user guide for the repositories related to each of them
 
-**Note:** While this README may be public, the guides regarding each project repos (as well as those repos) can only be seen by organization members.
-
-
----
-# Structure of the Academic Team (Consultants only)
+### Structure of the Academic Team (Consultants only)
 
 Our organigram can be found [here](https://docs.google.com/presentation/d/14rwj_Vp3KWuxNM8lidnvk24lUC07rtO1FIMUqsqzXUo/edit?usp=sharing). However, this can only be seen by organization members.
 
----
-# General Rules for Internal Tasks
+### Drive Folders (Consultants only)
 
-## Softcoding
+- RAs drive folder [here](https://drive.google.com/drive/folders/1dsrhuF6yZLcRMOxV778vEiZXxlMbLF0b?usp=sharing)
+- General drive folder [here](https://drive.google.com/drive/folders/1nRKfJIGGLXpHUM60K5ed3eJNvuUPsA9m?usp=sharing)
+
+**Note:** While this README may be public, the guides regarding each project repos (as well as those repos) can only be seen by organization members.
+
+---
+## General Rules for Internal Tasks
+
+### Softcoding
 
 The general philosophy for our scripts should be to softcode them as much as possible. This implies that _paths variable values, server addresses and else_ must not be included directly onto our codes. To make this possible we can:
 
@@ -43,7 +46,7 @@ global new_subdir_1 "$path/new_subdir_1"
 cap mkdir "$new_subdir_1"
 ```
 
-## Documentation
+### Documentation
 
 Our scripts must be documented. This means that they should be as self explanatory as possible. An optimal documentation can be achieved by:
 
