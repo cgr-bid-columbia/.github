@@ -41,7 +41,12 @@ cap mkdir "$new_subdir_1"
 
 ## Documentation
 
-Our scripts 
+Our scripts must be documented. This means that they should be as self explanatory as possible. An optimal documentation can be achieved by:
+
+- Adding short comments before a codeblock and _complicated_ lines of code
+- Avoiding long statements. As a rule of thumb, a codeline should be shorter than the screen width (unless you use an ultrawide screen)
+- Using variable, function, classes and object names that reflect what they represent
+
 
 
 ---
