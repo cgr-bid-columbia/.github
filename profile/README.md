@@ -10,20 +10,39 @@ Welcome to our organization! We are an academic team composed of IADB, Columbia 
 
 By clicking on a project name, you will access the user guide for the repositories related to each of them
 
-## General Setup Guide
-
-### Structure of the academic team
+---
+# Structure of the Academic Team
 
 Our organigram can be found [here](https://docs.google.com/presentation/d/14rwj_Vp3KWuxNM8lidnvk24lUC07rtO1FIMUqsqzXUo/edit?usp=sharing). However, this can only be seen by organization members.
 
-### Scripts setup
-To set up the scripts locally, follow the next steps:
+# General Rules for Internal Tasks
 
-- Create two folders in your prefered path: `complaints_repos` and `mcc_repos`
-- Within each folder, clone the respective repos. You can find a guide on cloning [here](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-a-repository-from-github-to-github-desktop)
+## Softcoding
 
-### Databases setup
-To set up your computer to access our data, follow this [guide](https://github.com/cgr-bid-columbia/odbc_setup_guide)
+The general philosophy for our scripts should be to softcode them as much as possible. This implies that _paths variable values, server addresses and else_ must not be included directly onto our codes. To make this possible we can:
+
+- Use system variables for `non-stata` scripts
+- Ask the path directly to a `.do file` (stata script) user
+- Create subdirectories directly from our scripts when neccesary
+
+Regarding the _paths_, our scripts should not have a hardcoded path. Instead, we should use the following snippet to ask the current user the path where he/she will store the output of the respective script
+
+```stata
+di `"Please, input the path for storing the outputs of this dofile into the COMMAND WINDOW and then press ENTER  "'  _request(path)
+cd "$path"
+```
+
+Regarding the subdirectories, one way to do that in stata is with this snippet:
+
+```stata
+global new_subdir_1 "$path/new_subdir_1"
+cap mkdir "$new_subdir_1"
+```
+
+## Documentation
+
+Our scripts 
+
 
 ---
 **Note:** While this README may be public, the guides regarding each project repos (as well as those repos) can only be seen by organization members.
